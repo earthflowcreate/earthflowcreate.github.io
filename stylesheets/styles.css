@@ -1,0 +1,374 @@
+/* Color Palette
+#3c3c3b - dark grey
+#c8d9f1 - light blue
+#7c6eb0 - main purple
+#646363 - light grey
+#261a3d - dark purple
+#7c6eb0 - light purple
+*/
+
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+
+  
+}
+h1, h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+  color: #261a3d;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+  color:#261a3d;
+}
+h3 {
+  margin: 0;
+  color: #7c6eb0
+}
+p {
+  color: #3c3c3b
+}
+a {
+  color: #c8d9f1;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+
+  margin: 0 auto;
+  padding: 25px 50px;
+  overflow: hidden;
+}
+#graphic-header {
+  padding: 25px 50px 75px 25px;
+}
+.logo {
+  float: right;
+  margin-left: 100px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: #261a3d;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #4e4180 ;
+  color: white;
+}
+/* header */
+header {
+  position: relative;
+}
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+header p {
+  color:#c8d9f1;
+}
+.profile-img {
+  border-radius: 50%;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+  font-size: 30px;
+  color: #c8d9f1;
+}
+footer h2, footer p {
+  color: #c8d9f1;
+}
+
+/* Navigation
+-------------------------*/
+.topnav {
+  overflow: hidden;
+  background-color: #261a3d;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #c8d9f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: #c8d9f1;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c8d9f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #261a3d;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Welcome
+--------------------------*/
+.welcome {
+  background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(255, 255, 255, 0.8)),
+              url(../images/horseandfaerie.jpg) no-repeat fixed center;
+  background-size: cover;
+  margin: 0 auto;
+  padding:25px 50px;
+  overflow: hidden;
+}
+
+.logo img{
+  width: 10px;
+  padding: 100px; 
+}
+/* Work Experience
+-------------------------*/
+.work {
+  background: #c8d9f1;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 35px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+.job-title {
+  text-color: #7c6eb0;
+  margin-bottom:20px;
+}
+.short-description {
+  margin-bottom:70px;
+}
+/* Portfolio
+-------------------------*/
+.portfolio {
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/abstractbackground.jpg) no-repeat fixed;
+  background-size: cover;
+  margin: 0 auto;
+  padding:25px 50px;
+  overflow: hidden;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+
+.portfolio h2{
+  padding: 10px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 75px;
+
+}
+
+.graphicDesign h3 {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #261a3d;
+}
+.logos h3 {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #261a3d;
+}
+
+.art h3 {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #261a3d;
+}
+
+
+
+
+/* Education
+-------------------------*/
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(255, 255, 255, 0.8)),
+              url(../images/montclair.jpg) no-repeat fixed;
+  background-size: cover;
+}
+p + h3 {
+  margin-top: 30px;
+}
+
+
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 801px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+  
+  .column img{
+    -ms-flex: 49%; /* IE10 */
+    flex: 49%;
+    max-width: 49%;
+    padding: 4px;
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+}
+@media (max-width: 800px){
+  header {
+  justify-content: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+  .column img{
+    -ms-flex: 100%;
+    flex: 100%;
+    width: 100%;
+    padding: 0 4px;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+  }
+  .short-description {
+    margin-bottom:35px;
+  }
+}
+@media (max-width:600px) {
+
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+   
+
+
+
+}
+
+
