@@ -61,7 +61,6 @@ a:hover {
 .logo {
   float: right;
   margin-left: 100px;
-  width: 300px;
 }
 .uppercase {
   text-transform: uppercase;
@@ -213,8 +212,6 @@ h3 ~ p {
 }
 .job-description {
   margin-bottom: 35px;
-}
-.job-description p:first-of-type {
   margin-top: 0;
 }
 .job-title {
@@ -222,7 +219,7 @@ h3 ~ p {
   margin-bottom:20px;
 }
 .short-description {
-  margin-bottom:70px;
+  margin-bottom:50px;
 }
 /* Portfolio
 -------------------------*/
@@ -366,28 +363,10 @@ p + h3 {
     width: 100%;
     text-align: left;
   }
-  .content-wrap {
+   
 
-    margin: 0 auto;
-    padding: 25px 20px;
-    overflow: hidden;
-  }
-  .welcome {
-    padding:25px 15px;
-  }
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  .graphicDesign h3 {
-    font-size: 40px;
 
-  }
-  .portfolio {
-    padding:25px 10px;
-  }
+
 }
 
 
