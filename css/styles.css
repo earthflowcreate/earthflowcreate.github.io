@@ -60,7 +60,6 @@ a:hover {
 }
 .logo {
   float: right;
-  margin-left: 100px;
 }
 .uppercase {
   text-transform: uppercase;
@@ -337,7 +336,9 @@ p + h3 {
   }
 }
 @media (max-width:600px) {
-
+  .logo {
+    width: 80%;
+  }
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -363,7 +364,12 @@ p + h3 {
     width: 100%;
     text-align: left;
   }
-   
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
 
 
 
