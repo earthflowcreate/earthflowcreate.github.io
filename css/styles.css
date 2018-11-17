@@ -370,7 +370,17 @@ p + h3 {
   h2 {
     font-size: 30px;
   }
-
+  .graphicDesign h3 {
+    font-size: 30px;
+  }
+  .logos h3 {
+    font-size: 30px;
+  }
+  
+  .art h3 {
+    font-size: 30px;
+  }
+  
 
 
 }
