@@ -219,7 +219,9 @@ h3 ~ p {
 }
 .short-description {
   margin-bottom:75px;
+  margin-top: 0;
 }
+
 /* Portfolio
 -------------------------*/
 .portfolio {
@@ -344,7 +346,7 @@ p + h3 {
     vertical-align: middle;
   }
   .short-description {
-    margin-bottom: 50px;
+    margin-bottom: 75px;
   }
   .videoedit {
     width: 100%; 
