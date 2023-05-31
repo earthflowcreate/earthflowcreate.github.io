@@ -52,7 +52,7 @@ a:hover {
 .content-wrap {
 
   margin: 0 auto;
-  padding: 100px 50px;
+  padding: 25px 50px;
   overflow: hidden;
 }
 #graphic-header {
@@ -199,7 +199,8 @@ footer h2, footer p {
 
 .logo img{
   width: 10px;
-  padding: 100px; 
+  padding: 100px;
+  border-bottom: 100px;
 }
 /* Work Experience
 -------------------------*/
